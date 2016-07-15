@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "ACL": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "RoleMapping": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "Role": {
+    "dataSource": "mongodb",
+    "public": true
+  },
+  "jikeUser": {
+    "dataSource": "mongodb",
+    "public": true
+  }
+}
